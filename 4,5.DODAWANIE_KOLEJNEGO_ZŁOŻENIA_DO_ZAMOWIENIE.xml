@@ -1,0 +1,18 @@
+<DATAEX>
+
+<!-- 5. PRZENIESIENIE DO ZAMOWIENIA -->
+
+<COMMAND Name="Import" TblRef="SALEORDERLINES">
+    <FIELD FldRef="OrdRef" FldValue="spam5TEST" FldType="20"/> <!-- NAZWA ZAMOWIENIA -->
+    <FIELD FldRef="ArtRef" FldValue="SL40071114" FldType="20"/> <!-- ZLOZENIE PRZENIESIONE DO ZAMOWIENIA -->
+    <FIELD FldRef="LineNum" FldValue="1" FldType="20"/><!-- POZYCJA W ZAMOWIENIU -->
+    <FIELD FldRef="Quantity" FldValue="10" FldType="20"/><!-- ILOSC SZTUK W ZAMOWIENIU -->
+</COMMAND>
+<COMMAND Name="Import" TblRef="SALEORDERLINES">
+    <FIELD FldRef="OrdRef" FldValue="spam5TEST" FldType="20"/> <!-- NAZWA ZAMOWIENIA -->
+    <FIELD FldRef="ArtRef" FldValue="SL40071302" FldType="20"/> <!-- ZLOZENIE PRZENIESIONE DO ZAMOWIENIA -->
+    <FIELD FldRef="LineNum" FldValue="2" FldType="20"/><!-- POZYCJA W ZAMOWIENIU -->
+    <FIELD FldRef="Quantity" FldValue="10" FldType="20"/><!-- ILOSC SZTUK W ZAMOWIENIU -->
+</COMMAND>
+
+</DATAEX>
